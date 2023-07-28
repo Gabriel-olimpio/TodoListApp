@@ -18,11 +18,17 @@ import SwiftUI
 
 @main
 struct TodoListApp: App {
+    
+    @StateObject var listViewModel: ListViewModel = ListViewModel()
+    
     var body: some Scene {
         WindowGroup {
             NavigationView {
                 ListView()
             }
+            
+            .environmentObject(listViewModel)
         }
     }
 }
+ // now all the views have acces to the ListViewModel
