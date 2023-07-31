@@ -15,4 +15,4 @@ It’s a clean architecture that separates the business logic of an application 
 
 ## 📱 Demo
 
-<img width= "50%" height = "50%" src = "/assets/screen.gif">
+<img width= "960" height = "540" src = "/assets/screen.gif">
